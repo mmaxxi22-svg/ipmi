@@ -1,11 +1,11 @@
 PImage miImagen;
 
-PFont fuente;
+
 
 void setup(){
  size(800,400);
  miImagen = loadImage("siena.jpg");
- fuente = createFont("times new Roman",12);
+ 
  
 }
 
@@ -170,11 +170,11 @@ fill(#a89caf);
  
  //letras dentro del libro
  fill(#050505);
- textFont(fuente);
+  textSize(12);
  text("IRAT", 671, 113);
  
  fill(#050505);
- textFont(fuente);
+  textSize(12);
  text("ESTA", 670, 144);
  
  fill(#050505);
